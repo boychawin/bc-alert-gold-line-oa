@@ -1,0 +1,6 @@
+bin/
+# *.prod.*
+heroku.yml
+_project
+alert_be
+go.sum

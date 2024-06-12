@@ -1,0 +1,20 @@
+{
+    "destination": "xxxxxxxxxx",
+    "events": [
+      {
+        "type": "follow",
+        "timestamp": 1462629479859,
+        "source": {
+          "type": "user",
+          "userId": "U8189cf6745fc0d808977bdb0b9f22995"
+        },
+        "replyToken": "nHuyWiB7yP5Zw52FIkcQobQuGDXCTA",
+        "mode": "active",
+        "webhookEventId": "01FZ74A0TDDPYRVKNK77XKC3ZR",
+        "deliveryContext": {
+          "isRedelivery": false
+        }
+      }
+    ]
+  }
+  

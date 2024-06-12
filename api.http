@@ -1,0 +1,24 @@
+
+POST http://localhost:8031/api/line/webhook
+Content-Type: application/json
+
+{
+  "destination": "xxxxxxxxxx",
+  "events": [
+    {
+      "type": "follow",
+      "timestamp": 1462629479859,
+      "source": {
+        // You can get the user ID from the userId property of the source object
+        "type": "user",
+        "userId": "U8189cf6745fc0d808977bdb0b9f22995"
+      },
+      "replyToken": "nHuyWiB7yP5Zw52FIkcQobQuGDXCTA",
+      "mode": "active",
+      "webhookEventId": "01FZ74A0TDDPYRVKNK77XKC3ZR",
+      "deliveryContext": {
+        "isRedelivery": false
+      }
+    }
+  ]
+}

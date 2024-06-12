@@ -1,0 +1,27 @@
+{
+    "APP_NAME": "BC-Alert",
+    "ProjectDescription": "Gold Price",
+    "Version": "0.0.1",
+    "ENV": "dev",
+    "TimeZone": "Asia/Bangkok",
+    "LISTENING": {
+      "IP": "localhost",
+      "PORT": "8032"
+    },
+    "DB": {
+      "DB_HOST": "",
+      "DB_USER": "",
+      "DB_PASS": "",
+      "DB_NAME": "",
+      "DB_POST": ""
+    },
+    "GOLD":{
+      "GoldtradersLink":"https://xn--42cah7d0cxcvbbb9x.com/",
+      "GoldtradersTableElement":"#rightCol > div.divgta.goldshopf > table > tbody"
+    },
+    "LINE":{
+      "CHANNEL_SECRET":"",
+      "CHANNEL_TOKEN":""
+    },
+    "LINE_GROUP":""
+  }
